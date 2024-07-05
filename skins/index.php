@@ -711,7 +711,7 @@ if(!isset($_POST['weapon'])) {
                 <div>
                     <label for="wear"><?= $translations->skins->selected_weapon->wear->label; ?></label>
                     <select name="wear" id="wear">
-                        <option value="0.00"<?= $weapon_wear[0]; ?>><?= $translations->skins->selected_weapon->wear->factory_new; ?></option>
+                        <option value="0.000001"<?= $weapon_wear[0]; ?>><?= $translations->skins->selected_weapon->wear->factory_new; ?></option>
                         <option value="0.07"<?= $weapon_wear[1]; ?>><?= $translations->skins->selected_weapon->wear->minimal_wear; ?></option>
                         <option value="0.15"<?= $weapon_wear[2]; ?>><?= $translations->skins->selected_weapon->wear->field_tested; ?></option>
                         <option value="0.38"<?= $weapon_wear[3]; ?>><?= $translations->skins->selected_weapon->wear->well_worn; ?></option>
